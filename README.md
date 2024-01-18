@@ -1,6 +1,6 @@
 ## Computational_tool_experimental_validation - Reduced Scale
 
-<img width="2434" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/631e0c49-568c-4c13-b766-794e71bbe4e6">
+<img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
 
 
 ### Under construction
