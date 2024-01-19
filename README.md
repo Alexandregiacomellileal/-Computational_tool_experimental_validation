@@ -73,7 +73,7 @@ The proposed solution, depicted in Figure 4, involves a systematic sequence of t
 | 2          | 49.0      | 6.28                   | 9.61         | 40.5            | 48.3            |
 | 3          | 39.5    | 6.25                   | 9.86         | 37.5            | 39.5            |
 
-In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding resistance by other measurement method evaluated in this research. The "Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
+In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding resistance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
 
 ### Table 2 - Percentage error in estimated the turbine grounding resistance Rf
 
