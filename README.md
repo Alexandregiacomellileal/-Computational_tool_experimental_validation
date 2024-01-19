@@ -26,7 +26,8 @@ One notable application is in wind farms, where these 25 kHz instruments have be
 Figure 2 shows an illustration of the High-frequency method (HFM) in the case study's grounding system. The high-frequency method consists of an adaption of the Fop method using a high-frequency current injection between the electrode of interest (EE) and the current electrode (CE). The fundamental concept behind the high-frequency method is to inject a current $Ic$ (A) at a higher frequency, allowing it to predominantly circulate through the grounding turbine of interest, canceling the impact of the surrounding ground circuit. Thus, the ratio of the voltage potential $Vp$ (V) to the injected current $Ic$ provides the grounding impedance of the turbine at 25 kHz $Zmed_{FoP}^{HF}$ ($\Omega$).
 
 **Figure 2**
-<img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
+<img width="2436" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/874cbb0d-c3c0-48d3-9f7f-d570b1b35d16">
+
 
 A common issue in measuring grounding resistance at the specific frequency of 25 kHz is the pronounced coupling effect between the leads connected to auxiliary electrodes for current and potential. This effect becomes particularly significant when these leads are laid in parallel within the ground. To address this challenge, it is recommended to adopt the configuration outlined in Figure 2. In this setup, the auxiliary electrodes for the current and the potential probes should be positioned in opposite directions along a line orthogonal to the horizontal electrode direction. This arrangement mitigates the coupling effect, providing a more accurate measurement of grounding resistance at 25 kHz [^1].
 
