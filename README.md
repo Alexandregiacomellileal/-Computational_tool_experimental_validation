@@ -4,11 +4,11 @@
 
 ### Low-Frequency Fall-of-Potential Method using Flat-slope-rule
 
-In Figure 1, we illustrate the application of the Fall-of-Potential (FoP) method to measure the low-frequency grounding resistance in our case study grounding system. The measuring leads have been laid along a line orthogonal to the horizontal electrode's length. A voltage (V) was applied by a low-frequency instrument between the electrode of interest (EE) and the auxiliary current-return electrode (CE), inducing a current (I) to circulate. To minimize mutual resistances, the CE was strategically placed at a substantial distance XC (m) of 45 meters from EE.
+In Figure 1, we illustrate the application of the Fall-of-Potential (FoP) method to measure the low-frequency grounding resistance in our case study grounding system. The measuring leads have been laid along a line orthogonal to the horizontal electrode's length. A voltage $V$ (V) was applied by a low-frequency instrument between the electrode of interest (EE) and the auxiliary current-return electrode (CE), inducing a current $I$ (A) to circulate. To minimize mutual resistances, the CE was strategically placed at a substantial distance XC (m) 45 meters from EE.
 
-Next, a Potential Electrode (PE) is positioned at a distance XP (m) from the current injection point in EE. The precise placement of the PE, termed the compensation point, is crucial. It must be free from influences of both the EE and CE.
+Next, a Potential Electrode (PE) is positioned at a distance XP (m) from the current injection point in EE. The precise placement of the PE termed the compensation point, is crucial. It must be free from the influences of both the EE and CE.
 
-To ensure this, we systematically moved the PE in 0.1XC increments between EE and CE, capturing resistance reading at each step. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of true EE grounding resistance, a principle known as the Flat-slope-rule [^4].
+To ensure this, we systematically moved the PE in 0.1XC increments between EE and CE, capturing resistance reading at each step. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of true EE grounding resistance, a principle known as the Flat-slope-rule 1.
 
 [^4]: IEEE guide for measuring earth resistivity, ground impedance, and earth surface potentials of a grounding system, IEEE Std 81-2012 (Revision of IEEE Std 81-1983) (2012) 1–86.
 
