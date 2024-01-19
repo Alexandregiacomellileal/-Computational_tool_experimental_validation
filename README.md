@@ -2,7 +2,7 @@
 
 ## Measurement Methods
 
-### Low-Frequency Fall-of-Potential Method using Flat Technique
+### Low-Frequency Fall-of-Potential Method using Flat-slope-rule
 
 In Figure 1, we illustrate the application of the Fall-of-Potential (FoP) method to measure the low-frequency grounding resistance in our case study grounding system. To minimize mutual resistances, the Current Electrode (CE) is strategically placed at a substantial distance XC (m) from the electrode under test (EE).
 
@@ -15,7 +15,7 @@ To ensure this, we systematically moved the PE in 10% XC increments between EE a
 **Figure 1**
 <img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
 
-### High-Frequency Fall-of-Potential Method using Flat Technique
+### High-Frequency Fall-of-Potential Method using Flat-slope-rule
 
 **Figure 2**
 <img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
