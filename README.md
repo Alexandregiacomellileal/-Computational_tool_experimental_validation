@@ -18,7 +18,8 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 
 **Figure 3** Proposed method
-![image](https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/14e9d292-cefd-48ff-b467-d34140ca870f)
+<img width="1752" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/2fc2c2cf-371e-4eaf-b3ed-65a3858e3a96">
+
 
 
 Clamp-on ground meter method direct readings
