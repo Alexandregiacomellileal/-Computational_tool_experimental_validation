@@ -4,12 +4,12 @@
 
 ### Low-Frequency Fall-of-Potential Method 
 
-**Figure 1** - **Low-Frequency Fall-of-Potential Method**
+**Figure 1**
 <img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
 
 ### High-frequency Fall-of-Potential Method
 
-**Figure 2** - **High frequency method**
+**Figure 2**
 <img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
 
 A common issue in measuring grounding resistance at the specific frequency of 25 kHz is the pronounced coupling effect between the leads connected to auxiliary electrodes for current and voltage. This effect becomes particularly significant when these leads are laid in parallel within the ground. To address this challenge, it is recommended to adopt the configuration outlined in Figure 1. In this setup, the auxiliary electrodes for the current and the voltage probes should be positioned in opposite directions along a line orthogonal to the horizontal electrode direction. This arrangement mitigates the coupling effect, providing a more accurate measurement of grounding resistance at 25 kHz [-1].
@@ -19,13 +19,13 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 ### Clamp-on Ground Meter Method
 
-**Figure 3** - **Clamp-on ground meter method**
+**Figure 3**
 
 <img width="600" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/224314f7-6d26-4264-884d-75a5cc9f7a91">
 
 ### Proposed Method
 
-**Figure 4** - **Proposed method**
+**Figure 4**
 <img width="1752" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/2fc2c2cf-371e-4eaf-b3ed-65a3858e3a96">
 
 
