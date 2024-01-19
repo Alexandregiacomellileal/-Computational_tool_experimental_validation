@@ -19,6 +19,12 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 
 ### High-Frequency Fall-of-Potential Method using Flat-slope-rule
 
+Ground resistance meters typically operate at low frequencies, carefully chosen to avoid interference from the power system frequency and its lower harmonics. Exceptions to this general rule exist, particularly in the case of instruments operating at 25 kHz. These instruments have gained popularity due to their presumed ability to measure grounding impedance without the need to disconnect shielded wires. Originally designed for evaluating the grounding impedance of transmission line towers, these high-frequency meters have found practical applications beyond their initial scope.
+
+One notable application is in wind farms, where these 25 kHz instruments have been repurposed to estimate the impedance of the grounding resistances of individual turbines. This adaptation involves leveraging the frequency decoupling of grounding adjacent to the measurement point.
+
+Figure 2 shows an illustration of the High-frequency method (HFM) in the case study's grounding system. The high-frequency method consists of an adaption of the Fop method using a high-frequency current injection between the electrode of interest (EE) and the current electrode (CE). The fundamental concept behind the high-frequency method is to inject a current (Ic) at a higher frequency, allowing it to predominantly circulate through the grounding turbine of interest, canceling the impact of the surrounding ground circuit. Thus, the ratio of the voltage potential (Vp) to the injected current (Ic) provides the grounding impedance of the turbine at 25 kHz. It's noteworthy that the assessment of grounding impedance at high frequencies is particularly suited for understanding the behavior of the grounding circuit under the influence of atmospheric discharge-related currents.
+
 **Figure 2**
 <img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
 
