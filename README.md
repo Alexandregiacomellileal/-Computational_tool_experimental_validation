@@ -31,7 +31,7 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 ## Results
 
-| Turbine | Rf | Zmed_{s} @ 820 Hz | Zmed @ 820 Hz | Zmed @ 25kHz | Zmed @ 1572 Hz | Zmed @ Proposed Solution
+| Turbine | Rf | Zmed_MTR-1522 @ 820 Hz | Zmed_Scope @ 820 Hz | Zmed_Scope @ 25kHz | Zmed_CGM | Zmed @ Proposed Solution
 |-------------|----------|---------------|---------------|--------------|---------------|
 | 1          | 40       | 6.28          | 6.91          | 10.33        | 37.8          |
 | 2          | 49       | 6.28          | 6.95          | 9.61         | 40.5          |
