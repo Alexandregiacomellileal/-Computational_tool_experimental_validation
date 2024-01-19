@@ -12,7 +12,8 @@ Next, a Potential Electrode (PE) was positioned at a distance XP (m) from the cu
 
 
 **Figure 1**
-<img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
+<img width="2076" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/0e2ae89d-a060-4546-9149-f108f7bcc970">
+
 
 ### High-Frequency Fall-of-Potential Method using Flat-slope-rule
 
