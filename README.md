@@ -1,5 +1,12 @@
 ## Computational_tool_experimental_validation - Reduced Scale
 
+## Experimental Setup
+
+The proposed lumped parameter model underwent experimental validation using a reduced-scale model of the grounding system detailed in Section 2.2 of the associated research paper. The grounding system was constructed with three 4 mm thick steel cylinders spaced 7.5 m apart, interconnected to a 15 m horizontal electrode. Each steel cylinder, symbolizing a turbine grounding, boasted a radius of 19.7 cm and a height of 43 cm, while the copper horizontal electrode had a cross-sectional area of 35 $mm^2$. The horizontal electrode was buried 12 cm below the ground. Each cylinder electrode was positioned on the same side at a distance of 28.5 cm from the horizontal electrode. The radial connection between the cylinder and horizontal electrodes was established using an insulated wire with a cross-sectional area of 10 $mm^2$, with a length of $s$ + 0.1 $(m)$. The soil had an average low-frequency resistivity of 86.8 Ω·m.  In Figure 0, the schematic of the grounding system is presented, capturing key moments during both its construction and the measurement process.
+
+**Figure 0**
+![experiment_git_hub (003)](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation_alternative/assets/96079504/9a3bbea2-8b20-4a73-ab05-3252bbfae3fe)
+
 ## Measurement Methods
 
 ### Low-Frequency Fall-of-Potential Method using Flat-slope-rule
@@ -38,6 +45,8 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 [^1]: S. Visacro, F. H. Silveira and C. H. D. Oliveira, "Measurements for Qualifying the Lightning Response of Tower-Footing Electrodes of Transmission Lines," in IEEE Transactions on Electromagnetic Compatibility, vol. 61, no. 3, pp. 719-726, June 2019, doi: 10.1109/TEMC.2019.2915188.
 
 ### Clamp-on Ground Meter Method
+
+Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter attached to the interconnection cable linking each cylinder (representing the turbine grounding) to the horizontal electrode. 
 
 **Figure 3**
 
