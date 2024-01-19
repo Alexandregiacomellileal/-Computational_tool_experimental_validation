@@ -29,6 +29,13 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 <img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
 
 
+## Results
+
+| Measured point | Vpp (mV) | ipp (mA) | Zmed (Ω) | Vpp (mV) | ipp (mA) | Zmed (Ω) |
+|-----------------|----------|----------|----------|----------|----------|----------|
+| R1              | 1050     | 101.6    | 10.33    | 680      | 98.4     | 6.91     |
+| R2              | 984      | 102.4    | 9.61     | 684      | 98.4     | 6.95     |
+| R3              | 1010     | 102.4    | 9.86     | 680      | 98.0     | 6.94     |
 
 
 
