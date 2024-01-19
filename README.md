@@ -47,7 +47,7 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 | 2         | -87.2                   | -80.4         | -17.3           | -1.5            |
 | 3          | -84.2                | -75.0         | -5.1            | 0.1             |
 
-
+Actual Rf represents the actual turbine grounding resistance, and $Zmed_{method}$ represents the estimated turbine grounding resistance by the measurement method. The "Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
 
 
 
