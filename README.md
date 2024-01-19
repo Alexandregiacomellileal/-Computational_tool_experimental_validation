@@ -4,13 +4,15 @@
 
 ### Low-Frequency Fall-of-Potential Method using Flat-slope-rule
 
-In Figure 1, we illustrate the application of the Fall-of-Potential (FoP) method to measure the low-frequency grounding resistance in our case study grounding system. To minimize mutual resistances, the Current Electrode (CE) is strategically placed at a substantial distance XC (m) from the electrode under test (EE).
+In Figure 1, we illustrate the application of the Fall-of-Potential (FoP) method to measure the low-frequency grounding resistance in our case study grounding system. To minimize mutual resistances, the Current Electrode (CE) is strategically placed at a substantial distance XC of 45 m from the electrode under test (EE).
 
 Next, the Potential Electrode (PE) is positioned at a distance XP (m) from the current injection point in EE. The precise placement of the PE, termed the compensation point, is crucial. It must be free from influences of both the EE and CE.
 
-To ensure this, we systematically moved the PE in 10% XC increments between EE and CE, capturing resistance reading at each step. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) is indicative of the true resistance, a principle known as the Flat-slope-rule [^4].
+To ensure this, we systematically moved the PE in 0.1XC increments between EE and CE, capturing resistance reading at each step. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) it was the indicative of the EE true resistance, a principle known as the Flat-slope-rule [^4].
 
 [^4]: IEEE guide for measuring earth resistivity, ground impedance, and earth surface potentials of a grounding system, IEEE Std 81-2012 (Revision of IEEE Std 81-1983) (2012) 1–86.
+
+XC = 45m
 
 **Figure 1**
 <img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
