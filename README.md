@@ -22,6 +22,9 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 <img width="1752" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/2fc2c2cf-371e-4eaf-b3ed-65a3858e3a96">
 
 
+**Figure 4** - **Low-Frequency Fall-of-Potential Method**
+<img width="2130" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/a047e545-e236-4100-bbfe-301e5815f511">
+
 
 
 
