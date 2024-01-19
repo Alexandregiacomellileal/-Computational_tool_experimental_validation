@@ -31,16 +31,16 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 ## Measurement Data and Percentage Error
 
-| Turbine | Rf | Zmed @ 820 Hz | Zmed @ 820 Hz | Zmed_{HF} | $Zmed_{CGM}$ | $Zmed_{Proposed}$|
-|-------------|---------|---------------|---------------|--------------|-----------------|-----------------|
+| Turbine | Rf | Zmed @ 820 Hz | Zmed_{HF} | $Zmed_{CGM}$ | $Zmed_{Proposed}$|
+|-------------|------------------------|--------------|-----------------|-----------------|
 | 1          | 40.0      | 6.28                    | 10.33        | 37.8            | 40.0            |
 | 2          | 49.0      | 6.28                   | 9.61         | 40.5            | 48.3            |
 | 3          | 39.5    | 6.25                   | 9.86         | 37.5            | 39.5            |
 
 ### Percentage error in estimated the turbine grounding resistance Rf
 
-| Turbine  | Error @ 820 Hz | Error @ 820 Hz | Error @ 25kHz | Error @ 1572 Hz | Error @ Proposed |
-|-------------|-----------------|-----------------|----------------|------------------|------------------|
+| Turbine  | Error @ 820 Hz | Error @ 25kHz | Error @ 1572 Hz | Error @ Proposed |
+|------------------------------|----------------|------------------|------------------|
 | 1        | -84.3%                   | -74.2%         | -5.5%            | -0.1%            |
 | 2         | -87.2%                   | -80.4%         | -17.3%           | -1.5%            |
 | 3          | -84.2%                | -75.0%         | -5.1%            | 0.1%             |
