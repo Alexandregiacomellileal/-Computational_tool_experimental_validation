@@ -29,21 +29,21 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 <img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
 
 
-## Measurement Data and Absolute Percentage Error
+## Measurement Data and Percentage Error
 
-| Pto medição | Rf | Zmed @ 820 Hz | Zmed @ 820 Hz | Zmed @ 25kHz | Zmed @ 1572 Hz | Zmed @ Proposed |
+| Turbine | Rf | Zmed @ 820 Hz | Zmed @ 820 Hz | Zmed_{HF} | $Zmed_{CGM}$ | $Zmed_{Proposed}$|
 |-------------|---------|---------------|---------------|--------------|-----------------|-----------------|
-| R1          | 40      | 6.28          | 6.91          | 10.33        | 37.8            | 40.0            |
-| R2          | 49      | 6.28          | 6.95          | 9.61         | 40.5            | 48.3            |
-| R3          | 39.5    | 6.25          | 6.94          | 9.86         | 37.5            | 39.5            |
+| 1          | 40.0      | 6.28                    | 10.33        | 37.8            | 40.0            |
+| 2          | 49.0      | 6.28                   | 9.61         | 40.5            | 48.3            |
+| 3          | 39.5    | 6.25                   | 9.86         | 37.5            | 39.5            |
 
-### Absolute Percentage Error
+### Percentage error in estimated the turbine grounding resistance Rf
 
-| Pto medição | Error @ 820 Hz | Error @ 820 Hz | Error @ 25kHz | Error @ 1572 Hz | Error @ Proposed |
+| Turbine  | Error @ 820 Hz | Error @ 820 Hz | Error @ 25kHz | Error @ 1572 Hz | Error @ Proposed |
 |-------------|-----------------|-----------------|----------------|------------------|------------------|
-| R1          | -84.3%          | -82.7%          | -74.2%         | -5.5%            | -0.1%            |
-| R2          | -87.2%          | -85.8%          | -80.4%         | -17.3%           | -1.5%            |
-| R3          | -84.2%          | -82.4%          | -75.0%         | -5.1%            | 0.1%             |
+| 1        | -84.3%                   | -74.2%         | -5.5%            | -0.1%            |
+| 2         | -87.2%                   | -80.4%         | -17.3%           | -1.5%            |
+| 3          | -84.2%                | -75.0%         | -5.1%            | 0.1%             |
 
 
 
