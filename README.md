@@ -2,12 +2,12 @@
 
 ## Measurement Methods
 
-### Low-Frequency Fall-of-Potential Method with flat technique
+### Low-Frequency Fall-of-Potential Method using Flat Technique
 
 **Figure 1**
 <img width="2071" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/93ecf1d2-bf40-417c-87ba-05becf5aef29">
 
-### High-Frequency Fall-of-Potential Method with flat technique
+### High-Frequency Fall-of-Potential Method using Flat Technique
 
 **Figure 2**
 <img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
