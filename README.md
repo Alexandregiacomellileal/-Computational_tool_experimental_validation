@@ -31,11 +31,20 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 ## Results
 
-| Turbine | Rf | Zmed_MTR-1522 @ 820 Hz | Zmed_Scope @ 820 Hz | Zmed_Scope @ 25kHz | Zmed_CGM | Zmed @ Proposed Solution
-|-------------|----------|---------------|---------------|--------------|---------------|---------------|
-| 1          | 40       | 6.28          | 6.91          | 10.33        | 37.8          | 39.9          |
-| 2          | 49       | 6.28          | 6.95          | 9.61         | 40.5          | 48.9          |
-| 3          | 39.5     | 6.25          | 6.94          | 9.86         | 37.5          | 39.5          |
+| Turbine | 1     | 2     | 3     |
+|---------|-------|-------|-------|
+| Rf      | 40    | 49    | 39.5  |
+| Zmed_FoP_LF (MTR-1522) | 6.28  | 6.28  | 6.25  |
+| Zmed_FoP_LF (Scope)   | 6.91  | 6.95  | 6.94  |
+| Zmed_FoP_HF (Scope)   | 10.33 | 9.61  | 9.86  |
+| Zmed_CGM (UT278A)     | 37.8  | 40.5  | 37.5  |
+| Zmed @ Proposed Solution | 39.9  | 48.9  | 39.5  |
+| Abs. Error (%) (Zmed_FoP_LF MTR-1522) | 5.10% | 0.00% | -0.63% |
+| Abs. Error (%) (Zmed_FoP_LF Scope)   | 13.28% | 17.35% | 16.00% |
+| Abs. Error (%) (Zmed_FoP_HF Scope)   | 32.39% | 1.14% | 3.64% |
+| Abs. Error (%) (Zmed_CGM UT278A)     | 7.41%  | 19.75% | 4.00% |
+| Abs. Error (%) (Zmed @ Proposed Solution) | 0.25%  | 1.84%  | 0.00% |
+
 
 
 
