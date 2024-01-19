@@ -11,3 +11,7 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 [1] S. Visacro, F. H. Silveira and C. H. D. Oliveira, "Measurements for Qualifying the Lightning Response of Tower-Footing Electrodes of Transmission Lines," in IEEE Transactions on Electromagnetic Compatibility, vol. 61, no. 3, pp. 719-726, June 2019, doi: 10.1109/TEMC.2019.2915188.
 
 ![image](https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/14e9d292-cefd-48ff-b467-d34140ca870f)
+
+
+Clamp-on ground meter method direct readings
+
