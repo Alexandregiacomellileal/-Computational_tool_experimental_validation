@@ -31,7 +31,7 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 ## Measurement Data and Percentage Error
 
-| Turbine | Rf | $Zmed_{FoP}^{LF}$ | $Zmed_{FoP}^{HF}$ | $Zmed_{CGM}$ | $Zmed_{Proposed}$|
+| Turbine | Rf $\Omega$ | $Zmed_{FoP}^{LF}$ | $Zmed_{FoP}^{HF}$ | $Zmed_{CGM}$ | $Zmed_{Proposed}$|
 |-------------|------------------------|--------------|-----------------|-----------------|-----------------|
 | 1          | 40.0      | 6.28                    | 10.33        | 37.8            | 40.0            |
 | 2          | 49.0      | 6.28                   | 9.61         | 40.5            | 48.3            |
