@@ -1,6 +1,6 @@
 ## Computational_tool_experimental_validation - Reduced Scale
 
-**Figure 1** High frequency method
+**Figure 1** - **High frequency method**
 <img width="2435" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/dca3dd3d-abc3-46c6-b430-6bc2db7ba648">
 
 
@@ -11,18 +11,16 @@ A common issue in measuring grounding resistance at the specific frequency of 25
 
 [1] S. Visacro, F. H. Silveira and C. H. D. Oliveira, "Measurements for Qualifying the Lightning Response of Tower-Footing Electrodes of Transmission Lines," in IEEE Transactions on Electromagnetic Compatibility, vol. 61, no. 3, pp. 719-726, June 2019, doi: 10.1109/TEMC.2019.2915188.
 
-**Figure 2** Clamp-on ground meter method
+**Figure 2** - **Clamp-on ground meter method**
 
 ![escala_reduzida_real](https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/b503d583-473c-406d-9707-2c0956f1c053)
 
 
 
-**Figure 3** Proposed method
+**Figure 3** - **Proposed method**
 <img width="1752" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/2fc2c2cf-371e-4eaf-b3ed-65a3858e3a96">
 
 
-
-Clamp-on ground meter method direct readings
 
 
 
