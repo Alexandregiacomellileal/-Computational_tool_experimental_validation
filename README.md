@@ -1,4 +1,4 @@
-# Computational tool experimental validation in reduced scale
+# Experimental validation of the computational tool
 
 ## Overview
 This repository contains the experimental validation details for the computational tool proposed in associated research paper. The validation experiments were conducted using a scaled-down multi-grounded system, as described below.
