@@ -1,7 +1,7 @@
 # Experimental validation of the computational tool
 
 ## Overview
-This repository contains the experimental validation details for the computational tool proposed in associated research paper. The validation experiments were conducted using a scaled-down multi-grounded system, as described below.
+This repository provides details on the experimental validation for the computational tool proposed in the associated research paper. Validation experiments were conducted using a scaled-down multi-grounded system, as described below. The study involved measurements using four methods: (i) Fall-of-Potential at low frequency, (ii) Fall-of-Potential at high frequency (25 kHz), (iii) Clamp-on ground meter, and (iv) Proposed. The primary objective was to compare the measurements results with the individual actual turbine grounding resistance (Rf, measured in Ω) obtained through Fall-of-Potential method at low frequency before the installation of horizontal electrodes.
 
 ## Experimental Setup
 
