@@ -12,7 +12,9 @@ The computational tool proposed in the associated research paper underwent exper
 
 ## Measurement Methods
 
-### Low-Frequency Fall-of-Potential Method using Flat-slope-rule
+This section provides details of the measurements conducted in the case study grounding using four methods: (i) Fall-of-Potential at low frequency, (ii) Fall-of-Potential at high frequency (25 kHz), (iii) Clamp-on ground meter, and (iv) the Proposed method. The primary objective was to compare the measurements result with the individual actual turbine grounding resistance (Rf, measured in Ω) obtained through the Fall-of-Potential method at low frequency before the installation of horizontal electrodes.
+
+### (i) Low-Frequency Fall-of-Potential Method using Flat-slope-rule
 
 In Figure 2, we illustrate the application of the Fall-of-Potential (FoP) method to measure the low-frequency grounding resistance in our case study grounding system. The measuring leads have been laid along a line orthogonal to the horizontal electrode's length. A voltage $Vp$ (V) was applied by a low-frequency instrument between the electrode of interest (EE) and the auxiliary current-return electrode (CE), inducing a current $Ic$ (A) to circulate. To minimize mutual resistances, the CE was strategically placed at a substantial distance XC (m) 45 meters from EE.
 
@@ -27,7 +29,7 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 <img width="2076" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/0e2ae89d-a060-4546-9149-f108f7bcc970">
 
 
-### High-Frequency Fall-of-Potential Method
+### (ii) High-Frequency Fall-of-Potential Method
 
 Ground resistance meters typically operate at low frequencies, carefully chosen to avoid interference from the power system frequency and its lower harmonics. Exceptions to this general rule exist, particularly in the case of instruments operating at 25 kHz. These instruments have gained popularity due to their presumed ability to measure grounding impedance without the need to disconnect shielded wires. Originally designed for evaluating the grounding impedance of transmission line towers, these high-frequency meters have found practical applications beyond their initial scope.
 
@@ -46,7 +48,7 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 
 [^1]: S. Visacro, F. H. Silveira and C. H. D. Oliveira, "Measurements for Qualifying the Lightning Response of Tower-Footing Electrodes of Transmission Lines," in IEEE Transactions on Electromagnetic Compatibility, vol. 61, no. 3, pp. 719-726, June 2019, doi: 10.1109/TEMC.2019.2915188.
 
-### Clamp-on Ground Meter Method
+### (iii) Clamp-on Ground Meter Method
 
 Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter attached to the interconnection cable linking each cylinder (representing the turbine grounding) to the horizontal electrode.
 
@@ -54,7 +56,7 @@ Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter
 
 <img width="450" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/224314f7-6d26-4264-884d-75a5cc9f7a91">
 
-### Proposed Method
+### (iv) Proposed Method
 
 The proposed solution, depicted in Figure 5, involves a systematic sequence of tasks. Initially, the process begins by accessing the technical documentation of the wind farm’s grounding system. Following this, a comprehensive survey of the parameters necessary for calculating the components of the equivalent electrical circuit is conducted. Next, an appropriate electrical circuit model is chosen for the wind farm’s grounding system. To account for variations and uncertainties, a sensitivity study is performed on parameters influencing the grounding resistance and capacitance of turbines and horizontal electrodes. Tolerance ranges are defined, considering factors such as construction non-conformities or soil and electrode deterioration. A sample vector $\textbf{P}$ is generated, with each element representing a specific grounding resistance or capacitance of a turbine or horizontal electrode. An element representing the parameter $k$ is also included to replicate the mutual coupling effect between the turbine and horizontal electrodes during clamp-on ground meter measurements. Uniform distributions are used to generate vector elements within their corresponding tolerance ranges set by the sensitivity study. The equivalent circuit of the grounding system is then loaded based on the values from the sample vector $\textbf{P}$. Subsequently, a computational simulation of the clamp-on method is performed in the equivalent electrical circuit. Instrument reading values are obtained in each turbine, resulting in an output sample vector **Z**<sub>med</sub>. This process is repeated $m$ times to generate input-output pairs [**Z**<sub>med</sub> ; **R**<sub>f</sub>] stored in a database $\mathbb{D}_{m\times2n}$ , being $n$ the numbers of turbines of the wind farm. The database is then utilized to train a machine-learning model. The trained model undergoes validation and testing to ensure accuracy and reliability. Finally, the trained model is used to predict the values of the resistances **R**<sub>f est</sub> for the n turbines based on the readings obtained via the clamp-on method during wind farm periodic inspections **Z**<sub>med </sub> . This systematic approach ensures a logical progression from data collection and circuit modeling to machine learning application, facilitating accurate predictions of turbine grounding resistances.
 
