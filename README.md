@@ -89,17 +89,14 @@ In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine gro
 
 ## Results discussions
 
-The analysis of the presented data from Table 1 and Table 2 provides valuable insights into the performance of different grounding measurement methods for wind turbine systems. In an initial examination of Table 1, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point within the grounding system, the impedance value at low frequency remains constant and reflects the actual grounding resistance of the entire grounding system, as anticipated. 
+The analysis of the presented data from Table 1 and Table 2 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 1, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point within the grounding system, the impedance value at low frequency remains constant and reflects the actual grounding resistance of the entire grounding system.
 
 For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 76.5 % in Table 2.
 
 On the other hand, looking at Table 2 we can see that the clamp-on-ground meter method exhibited a moderate MAPE of 9.4 %. What contributed to the CGM method's performance was a combination of the compact dimensions of the grounding system and the effect of mutual impedances among the grounding elements.
 
-The proposed method surpassed all others, achieving outstanding accuracy in predicting individual grounding resistances for wind turbine systems, as evidenced by an impressive MAPE of 0.6% in Table 2. 
+The proposed method surpassed all others, achieving outstanding accuracy in predicting individual grounding resistances for wind turbine systems, as evidenced by an impressive MAPE of 0.6% in Table 2. The success of our proposed method highlights its efficacy, making it a promising approach for assessments of the wind turbines' groundings. Overall, this study underscores the importance of careful method selection in grounding measurements, particularly in the context of wind energy systems, where accurate assessments are crucial for ensuring optimal performance.
 
-## Conclusions
-
-The success of our proposed method highlights its efficacy, making it a promising approach for accurate assessments of grounding systems in the context of wind turbine installations. Overall, this study underscores the importance of careful method selection in grounding measurements, particularly in the context of wind energy systems, where accurate assessments are crucial for ensuring optimal performance and safety.
 
 
 
