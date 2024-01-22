@@ -63,7 +63,7 @@ Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter
 
 <img width="450" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/224314f7-6d26-4264-884d-75a5cc9f7a91">
 
-<img width="1462" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/3f8a35f6-3baa-4996-b08d-8a910b7ca39e">
+<img width="500" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/3f8a35f6-3baa-4996-b08d-8a910b7ca39e">
 
 
 ### (iv) Proposed Method
