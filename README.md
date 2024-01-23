@@ -1,4 +1,4 @@
-# Experimental Validation of the Integrated Grounding Prediction System (IGPS)
+# Experimental Validation of the Wind Turbine Grounding Resistance Estimator (WTGRE)
 
 ## Associated research paper
 Integrated approach for wind turbine grounding resistance estimation: Bridging clamp-on ground meter, computational simulations, and machine learning
