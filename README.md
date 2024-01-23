@@ -1,4 +1,4 @@
-# Experimental validation of the computational tool
+# Experimental Validation of the Integrated Grounding Prediction System (IGPS)
 
 ## Associated research paper
 Integrated approach for wind turbine grounding resistance estimation: Bridging clamp-on ground meter, computational simulations, and machine learning
