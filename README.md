@@ -64,10 +64,10 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 
 In Table 1, the following parameters are recorded for each turbine:
 
-- **Zmed (Ω):** The measured impedance magnitude, representing the total opposition to the flow of alternating current.
-- **θ (°) (Phase Angle):** The angle of defasagem (lag) between $Vp$ and $Ic$, indicating the time delay in the waveform.
-- **R (Ω) (Real Component):** The real part of the measured impedance, representing resistance.
-- **X (Ω) (Imaginary Component):** The imaginary part of the measured impedance, representing reactance.
+- **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude, representing the total opposition to the flow of alternating current.
+- **$θ_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$, indicating the time delay in the waveform.
+- **$R_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance.
+- **$X_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance.
 
 The instruments used in HFM method were Tektronix A6302 50 MHz AC Current Probe, Tektronix AM503 Current Probe Amplifier, Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz.
 
