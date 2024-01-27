@@ -55,6 +55,13 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 
 It is important to note that many 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, even with inductive compensation, the readings provided by the 25 kHz meter still significantly exceed the low-frequency impedance of the turbine grounding. Consequently, these results underscore that the 25 kHz meter is not suitable for assessing the low-frequency resistance of the considered turbine grounding, even when equipped with an inductive compensation circuit.
 
+### Table 1 - HF Measurement Data      
+| Turbine | Zmed (Ω) | θ (°) | R (Ω) | X (Ω) |
+|---------|----------|-------|-------|-------|
+| 1       | 8.45     | 34.65 | 6.95  | 4.80  |
+| 2       | 7.46     | 34.65 | 6.14  | 4.24  |
+| 3       | 8.37     | 34.65 | 6.89  | 4.76  |
+
 
 The instruments used in HFM method were Tektronix A6302 50 MHz AC Current Probe, Tektronix AM503 Current Probe Amplifier, Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz.
 
@@ -81,7 +88,7 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 ## Measurement Data and Percentage Error
 
-### Table 1 - Measurement Data
+### Table 2 - Measurement Data
 
 | Turbine | Rf ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
 |-------------|------------------------|--------------|-----------------|-----------------|-----------------|
@@ -89,7 +96,7 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 | 2          | 49.0      | 6.28                   | 7.46       | 40.5            | 48.3            |
 | 3          | 39.5      | 6.25                   | 8.37       | 37.5            | 39.5            |
 
-In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
+In Table 2, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
 
 It is important to note that same 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, even with inductive compensation, the readings provided by the 25 kHz meter still significantly exceed the low-frequency impedance of the turbine grounding. Consequently, these results underscore that the 25 kHz meter is not suitable for assessing the low-frequency resistance of the considered turbine grounding, even when equipped with an inductive compensation circuit.
 
@@ -104,13 +111,13 @@ It is important to note that same 25 kHz ground meters come equipped with a buil
 
 ## Results discussions
 
-The analysis of the presented data from Table 1 and Table 2 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 1, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point within the grounding system, the impedance value at low frequency remains constant and reflects the actual grounding resistance of the entire grounding system.
+The analysis of the presented data from Table 1 and Table 2 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 2, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point within the grounding system, the impedance value at low frequency remains constant and reflects the actual grounding resistance of the entire grounding system.
 
-For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 76.5 % in Table 2.
+For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 76.5 % in Table 3.
 
-On the other hand, looking at Table 2 we can see that the clamp-on-ground meter method exhibited a moderate MAPE of 9.4 %. What contributed to the CGM method's performance was a combination of the compact dimensions of the grounding system and the effect of mutual impedances among the grounding elements.
+On the other hand, looking at Table 3 we can see that the clamp-on-ground meter method exhibited a moderate MAPE of 9.4 %. What contributed to the CGM method's performance was a combination of the compact dimensions of the grounding system and the effect of mutual impedances among the grounding elements.
 
-The proposed method surpassed all others, achieving outstanding accuracy in predicting individual grounding resistances for wind turbine systems, as evidenced by an impressive MAPE of 0.6% in Table 2. The success of our proposed method highlights its efficacy, making it a promising approach for assessments of the wind turbines' groundings. Overall, this study underscores the importance of careful method selection in grounding measurements, particularly in the context of wind energy systems, where accurate assessments are crucial for ensuring optimal performance.
+The proposed method surpassed all others, achieving outstanding accuracy in predicting individual grounding resistances for wind turbine systems, as evidenced by an impressive MAPE of 0.6% in Table 3. The success of our proposed method highlights its efficacy, making it a promising approach for assessments of the wind turbines' groundings. Overall, this study underscores the importance of careful method selection in grounding measurements, particularly in the context of wind energy systems, where accurate assessments are crucial for ensuring optimal performance.
 
 
 
