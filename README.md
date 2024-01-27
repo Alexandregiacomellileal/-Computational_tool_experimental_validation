@@ -105,8 +105,6 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 In Table 2, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
 
-It is important to note that same 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, even with inductive compensation, the readings provided by the 25 kHz meter still significantly exceed the low-frequency impedance of the turbine grounding. Consequently, these results underscore that the 25 kHz meter is not suitable for assessing the low-frequency resistance of the considered turbine grounding, even when equipped with an inductive compensation circuit.
-
 ### Table 2 - Percentage error in estimated the turbine grounding resistance Rf
 
 | Turbine  | $Error_{FoP}^{LF}$ (%) | $Error_{FoP}^{HF}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
