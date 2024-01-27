@@ -74,15 +74,18 @@ The proposed solution, depicted in Figure 5, involves a systematic sequence of t
 
 To assist readers who wish to replicate the experiment, we have attached two files python to the repository. The algorithm [[final_160124.py](https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/blob/main/final_160124.py)] generate the P vectors, involves performing the ATP simulation in mass, obtaining the input-output pairs [**Z**<sub>med</sub> ; **R**<sub>f</sub>], and storaging them in a database $\mathbb{D}_{1000\times6}$. Additionally, for creating the machine learning model to predict the target variables, we utilized [[final_varios_algoritmos.py](https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/blob/main/final_varios_algoritmos.py)]. The use of 1000 input-output pairs [**Z**<sub>med</sub> ; **R**<sub>f</sub>] was sufficient to accurate results. The data was splited into two groups, with 70% of the pairs allocated for training and 30% for testing. The Mean Absolute Percentage Error obtained was 4.328 \%, and the percentage of predictions with an absolute error greater than 10\% was 5.111\%.
 
+It is important to note that same 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, even with inductive compensation, the readings provided by the 25 kHz meter still significantly exceed the low-frequency impedance of the turbine grounding. Consequently, these results underscore that the 25 kHz meter is not suitable for assessing the low-frequency resistance of the considered turbine grounding, even when equipped with an inductive compensation circuit.
+
+
 ## Measurement Data and Percentage Error
 
 ### Table 1 - Measurement Data
 
-| Turbine | Rf ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
-|-------------|------------------------|--------------|-----------------|-----------------|-----------------|
-| 1          | 40.0      | 6.28                    | 8.45        | 37.8            | 40.0            |
-| 2          | 49.0      | 6.28                   | 7.46         | 40.5            | 48.3            |
-| 3          | 39.5    | 6.25                   | 8.37        | 37.5            | 39.5            |
+| Turbine | Rf ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Rmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
+|-------------|------------------------|--------------|--------------|-----------------|-----------------|-----------------|
+| 1          | 40.0      | 6.28                   | 8.45       | 6.85       | 37.8            | 40.0            |
+| 2          | 49.0      | 6.28                   | 7.46       | 6.14          | 40.5            | 48.3            |
+| 3          | 39.5      | 6.25                   | 8.37       | 6.89         | 37.5            | 39.5            |
 
 In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
 
