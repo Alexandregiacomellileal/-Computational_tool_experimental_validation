@@ -56,7 +56,7 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 It is important to note that many 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, even with inductive compensation, the readings provided by the 25 kHz meter still significantly exceed the low-frequency impedance of the turbine grounding. Consequently, these results underscore that the 25 kHz meter is not suitable for assessing the low-frequency resistance of the considered turbine grounding, even when equipped with an inductive compensation circuit.
 
 ### Table 1 - HF Measurement Data      
-| Turbine | Zmed (Ω) | θ (°) | R (Ω) | X (Ω) |
+| Turbine | $Zmed_{FoP}^{25 kHz}$ ($\Omega$) | $θ_{FoP}^{25 kHz}$ (°) | $R_{FoP}^{25 kHz}$ (Ω) | $X_{FoP}^{25 kHz}$ (Ω) |
 |---------|----------|-------|-------|-------|
 | 1       | 8.45     | 34.65 | 6.95  | 4.80  |
 | 2       | 7.46     | 34.65 | 6.14  | 4.24  |
