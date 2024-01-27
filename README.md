@@ -53,7 +53,7 @@ We systematically moved the PE in 0.1XC increments in the opposite direction awa
 
 For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP high-frequency measurements $Zmed_{FoP}^{HF}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. It's noteworthy that the assessment of grounding impedance at high frequencies is conventionally used for understanding the behavior of the grounding circuit under the influence of atmospheric discharge-related currents. 
 
-It is important to note that some 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, with inductive compensation, the readings provided by the 25 kHz meter deviate even further from the low-frequency impedance value of the turbine ground.
+It is important to note that some 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, with inductive compensation, the readings provided by the 25 kHz meter deviate even further from the low-frequency impedance value of the turbine ground. 
 
 ### Table 1 - HF Measurement Data      
 | Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θ_{FoP}^{HF}$ (°) | $R_{FoP}^{HF}$ (Ω) | $X_{FoP}^{HF}$ (Ω) |
@@ -61,6 +61,14 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 | 1       | 8.45     | 34.65 | 6.95  | 4.80  |
 | 2       | 7.46     | 34.65 | 6.14  | 4.24  |
 | 3       | 8.37     | 34.65 | 6.89  | 4.76  |
+
+In Table 1, the following parameters are recorded for each turbine:
+
+- **Zmed (Ω):** The measured impedance magnitude, representing the total opposition to the flow of alternating current.
+- **θ (°) (Phase Angle):** The angle of defasagem (lag) between $Vp$ and $Ic$, indicating the time delay in the waveform.
+- **R (Ω) (Real Component):** The real part of the measured impedance, representing resistance.
+- **X (Ω) (Imaginary Component):** The imaginary part of the measured impedance, representing reactance.
+
 
 
 The instruments used in HFM method were Tektronix A6302 50 MHz AC Current Probe, Tektronix AM503 Current Probe Amplifier, Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz.
