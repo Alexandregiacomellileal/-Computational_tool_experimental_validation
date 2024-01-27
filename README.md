@@ -56,7 +56,7 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 It is important to note that some 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, with inductive compensation, the readings $R_{FoP}^{HF}$ (Ω) provided by the 25 kHz meter deviate even further from the low-frequency impedance value of the turbine ground. In fact, they align much more closely with the true grounding resistance of the entire system in the test. Thus, for this study, we will not consider inductive compensation. This decision is made to optimize the high-frequency method, aiming to estimate the grounding resistance of the turbine under the most favorable conditions.
 
 ### Table 1 - HF Measurement Data      
-| Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θ_{FoP}^{HF}$ (°) | $R_{FoP}^{HF}$ (Ω) | $X_{FoP}^{HF}$ (Ω) |
+| Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θmed_{FoP}^{HF}$ (°) | $Rmed_{FoP}^{HF}$ (Ω) | $Xmed_{FoP}^{HF}$ (Ω) |
 |---------|----------|-------|-------|-------|
 | 1       | 8.45     | 34.65 | 6.95  | 4.80  |
 | 2       | 7.46     | 34.65 | 6.14  | 4.24  |
@@ -65,9 +65,9 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 In Table 1, the following parameters are recorded for each turbine:
 
 - **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude in polar form, representing the total opposition to the flow of alternating current.
-- **$θ_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$ in the polar form, indicating the time delay in the waveform.
-- **$R_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Z_{FoP}^{HF} \cdot \cos(\theta_{FoP}^{HF})$.
-- **$X_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Z_{FoP}^{HF} \cdot \sin(\theta_{FoP}^{HF})$.
+- **$θmed_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$ in the polar form, indicating the time delay in the waveform.
+- **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
+- **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
 The instruments used in HFM method were Tektronix A6302 50 MHz AC Current Probe, Tektronix AM503 Current Probe Amplifier, Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz.
 
