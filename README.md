@@ -64,8 +64,8 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 
 In Table 1, the following parameters are recorded for each turbine:
 
-- **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude in polar form, representing the total opposition to the flow of alternating current.
-- **$θmed_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$ in the polar form, indicating the time delay in the waveform.
+- **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude, taken as $Vp_{peak}/Ip_{peak}$ and representing the total opposition to the flow of alternating current.
+- **$θmed_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$, indicating the time delay in the waveform.
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
