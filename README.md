@@ -80,9 +80,9 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 | Turbine | Rf ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
 |-------------|------------------------|--------------|-----------------|-----------------|-----------------|
-| 1          | 40.0      | 6.28                    | 10.33        | 37.8            | 40.0            |
-| 2          | 49.0      | 6.28                   | 9.61         | 40.5            | 48.3            |
-| 3          | 39.5    | 6.25                   | 9.86         | 37.5            | 39.5            |
+| 1          | 40.0      | 6.28                    | 8.45        | 37.8            | 40.0            |
+| 2          | 49.0      | 6.28                   | 7.46         | 40.5            | 48.3            |
+| 3          | 39.5    | 6.25                   | 8.37        | 37.5            | 39.5            |
 
 In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" is then calculated as $((Zmed_{method} - Rf) / Rf) * 100$.
 
@@ -90,9 +90,9 @@ In Table 1, taken as benchmarked Rf ($\Omega$) represents the actual turbine gro
 
 | Turbine  | $Error_{FoP}^{LF}$ (%) | $Error_{FoP}^{HF}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
 |------------------------------|----------------|------------------|------------------|------------------|
-| 1        | -84.3                   | -74.2         | -5.5            | -0.1            |
-| 2         | -87.2                   | -80.4         | -17.3           | -1.5            |
-| 3          | -84.2                | -75.0         | -5.1            | 0.1             |
+| 1        | -84.3                   | -78.9         | -5.5            | -0.1            |
+| 2         | -87.2                   | -84.8         | -17.4           | -1.5            |
+| 3          | -84.2                | -78.8         | -5.1            | 0.1             |
 
 
 ## Results discussions
