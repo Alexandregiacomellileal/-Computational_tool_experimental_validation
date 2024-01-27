@@ -70,7 +70,12 @@ In Table 1, the following parameters are recorded for each turbine:
 - **R (Ω) (Real Component):** The real part of the measured impedance, representing resistance.
 - **X (Ω) (Imaginary Component):** The imaginary part of the measured impedance, representing reactance.
 
-
+| Turbine | $Z_{FoP}^{HF}$ ($\Omega$) | $θ_{FoP}^{HF}$ (°) | $R_{FoP}^{HF}$ (Ω) | $X_{FoP}^{HF}$ (Ω) |
+|---------|---------------------------|--------------------|---------------------|----------------------|
+| 1       | 8.45                      | 34.65              | 6.95                | 4.80                 |
+| 2       | 7.46                      | 34.65              | 6.14                | 4.24                 |
+| 3       | 8.37                      | 34.65              | 6.89                | 4.76                 |
+| **Description** | *Turbine Parameters in High-Frequency Domain* | | | |
 
 The instruments used in HFM method were Tektronix A6302 50 MHz AC Current Probe, Tektronix AM503 Current Probe Amplifier, Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz.
 
