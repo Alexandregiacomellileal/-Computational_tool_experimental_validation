@@ -56,6 +56,7 @@ For comparison purposes with other approaches aiming to estimate just the indivi
 It is important to note that some 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation.' In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, with inductive compensation, the readings $R_{FoP}^{HF}$ (Ω) provided by the 25 kHz meter deviate even further from the low-frequency impedance value of the turbine ground. In fact, they align much more closely with the true grounding resistance of the entire system in the test. Thus, for this study, we will not consider inductive compensation. This decision is made to optimize the high-frequency method, aiming to estimate the grounding resistance of the turbine under the most favorable conditions.
 
 ### Table 1 - HF Measurement Data      
+| Representation | Polar  |  | Retangular ||
 | Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θ_{FoP}^{HF}$ (°) | $R_{FoP}^{HF}$ (Ω) | $X_{FoP}^{HF}$ (Ω) |
 |---------|----------|-------|-------|-------|
 | 1       | 8.45     | 34.65 | 6.95  | 4.80  |
