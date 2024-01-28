@@ -6,7 +6,7 @@ Integrated approach for wind turbine grounding resistance estimation: Bridging c
 ## Overview
 This repository offers comprehensive details on the experimental validation conducted for the [[computational tool](https://github.com/Alexandregiacomellileal/Update-computacional-tool)] proposed in the associated research paper. The primary objective of this tool is to precisely estimate the individual grounding resistance of wind turbines when interconnected with the wind farm's grounding system through horizontal electrodes. It serves as an ally in identifying processes of deterioration that may occur in the surrounding soil or in the electrodes within the individual grounding system of the turbine throughout the lifespan of the wind farm.
 
-Validation experiments were conducted using a scaled-down multi-grounded system, as described below. The study involved measurements using four methods: (i) Fall-of-Potential at low frequency, (ii) Fall-of-Potential at high frequency (25 kHz), (iii) Clamp-on ground meter, and (iv) Proposed. The specific objective of this study was to compare the measurements results of these methods with the individual actual turbine grounding resistance (Rf, measured in Ω) obtained through Fall-of-Potential method at low frequency before the installation of horizontal electrodes.
+Validation experiments were conducted using a scaled-down multi-grounded system, as described below. The study involved measurements using four methods: (i) Fall-of-Potential at low frequency, (ii) Fall-of-Potential at high frequency (25 kHz), (iii) Clamp-on ground meter, and (iv) Proposed. The specific objective of this study was to compare the measurements results of these methods with the individual actual turbine grounding resistance ($Rf$, measured in Ω) obtained through Fall-of-Potential method at low frequency before the installation of horizontal electrodes.
 
 
 
@@ -69,11 +69,7 @@ In Table 1, the following parameters are recorded for each turbine:
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
-The instruments used to apply the HFM method were :
-
-(i) Tektronix A6302 50 MHz AC Current Probe
-(ii) Tektronix AM503 Current Probe Amplifier
-(iii) Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz
+The instruments used to apply the HFM method were: (i) Tektronix A6302 50 MHz AC Current Probe, (ii) Tektronix AM503 Current Probe Amplifier, (iii) Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz, and
 (iv) FeelTech FY3200S Function Signal Generator.
 
 [^1]: S. Visacro, F. H. Silveira and C. H. D. Oliveira, "Measurements for Qualifying the Lightning Response of Tower-Footing Electrodes of Transmission Lines," in IEEE Transactions on Electromagnetic Compatibility, vol. 61, no. 3, pp. 719-726, June 2019, doi: 10.1109/TEMC.2019.2915188.
