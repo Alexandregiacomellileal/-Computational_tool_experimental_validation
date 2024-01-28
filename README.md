@@ -69,7 +69,12 @@ In Table 1, the following parameters are recorded for each turbine:
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
-The instruments used in HFM method were Tektronix A6302 50 MHz AC Current Probe, Tektronix AM503 Current Probe Amplifier, Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz.
+The instruments used to apply the HFM method were :
+
+(i) Tektronix A6302 50 MHz AC Current Probe
+(ii) Tektronix AM503 Current Probe Amplifier
+(iii) Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz
+(iv) FeelTech FY3200S Function Signal Generator.
 
 [^1]: S. Visacro, F. H. Silveira and C. H. D. Oliveira, "Measurements for Qualifying the Lightning Response of Tower-Footing Electrodes of Transmission Lines," in IEEE Transactions on Electromagnetic Compatibility, vol. 61, no. 3, pp. 719-726, June 2019, doi: 10.1109/TEMC.2019.2915188.
 
