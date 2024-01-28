@@ -96,13 +96,13 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 ### Table 2 - Measurement Data
 
-| Turbine | Rf ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
+| Turbine | $Rf$ ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
 |-------------|------------------------|--------------|-----------------|-----------------|-----------------|
 | 1          | 40.0      | 6.28                   | 8.45       | 37.8            | 40.0            |
 | 2          | 49.0      | 6.28                   | 7.46       | 40.5            | 48.3            |
 | 3          | 39.5      | 6.25                   | 8.37       | 37.5            | 39.5            |
 
-In Table 2, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" in Table 3 is then calculated as $Error_{method}$ = $\frac{Zmed_{method} - Rf} {Rf} * 100$ (%). It is essential to note that the grounding resistance Rf was obtained prior to the installation of horizontal electrodes.
+In Table 2, taken as benchmarked $Rf$ ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" in Table 3 is then calculated as $Error_{method}$ = $\frac{Zmed_{method} - Rf} {Rf} * 100$ (%). It is essential to note that the grounding resistance $Rf$ was obtained prior to the installation of horizontal electrodes.
 
 ### Table 3 - Percentage error in estimated the turbine grounding resistance Rf
 
