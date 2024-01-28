@@ -102,7 +102,7 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 | 2          | 49.0      | 6.28                   | 7.46       | 40.5            | 48.3            |
 | 3          | 39.5      | 6.25                   | 8.37       | 37.5            | 39.5            |
 
-In Table 2, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" in Table 3 is then calculated as $Error_{method}$ = $\frac{Zmed_{method} - Rf} {Rf} * 100$ (%).
+In Table 2, taken as benchmarked Rf ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" in Table 3 is then calculated as $Error_{method}$ = $\frac{Zmed_{method} - Rf} {Rf} * 100$ (%). It is essential to note that the grounding resistance Rf was obtained prior to the installation of horizontal electrodes.
 
 ### Table 3 - Percentage error in estimated the turbine grounding resistance Rf
 
