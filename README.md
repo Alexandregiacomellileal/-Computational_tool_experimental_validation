@@ -115,7 +115,7 @@ In Table 2, taken as benchmarked Rf ($\Omega$) represents the actual turbine gro
 
 ## Results discussions
 
-The analysis of the presented data from Table 1 and Table 2 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 2, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point within the grounding system, the impedance value at low frequency remains constant and reflects the actual grounding resistance of the entire grounding system.
+The analysis of the presented data from Table 2 and Table 3 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 2, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point within the grounding system, the impedance value at low frequency remains constant and reflects the actual grounding resistance of the entire grounding system.
 
 For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 80.8 % in Table 3.
 
