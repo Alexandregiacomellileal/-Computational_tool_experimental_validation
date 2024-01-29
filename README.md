@@ -65,12 +65,12 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 In Table 1, the following parameters are recorded for each turbine:
 
 - **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude, calculated as peak voltage-to-current ratio $( \frac{Vp^{rms}}{Ic^{rms}} )$, representing the total opposition to the flow of alternating current.
-- **$θmed_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$, indicating the time delay in the waveform.
+- **$θmed_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$, , calculated as $(\frac{t_d.360}{Period}$, indicating the time delay in the waveform.
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
 **Figure 4**
-<img width="400" alt="image" src="https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/assets/96079504/4e75cda6-e355-4cec-966e-c7626308f4a0">
+<img width="399" alt="image" src="https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/assets/96079504/8a0a8ca3-f48f-48bd-8d54-ee8ca9114f24">
 
 
 The instruments used to apply the HFM method were: (i) Tektronix A6302 50 MHz AC Current Probe, (ii) Tektronix AM503 Current Probe Amplifier, (iii) Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz, and
