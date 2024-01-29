@@ -49,7 +49,7 @@ Figure 3 shows an illustration of the High-frequency method (HFM) in the case st
 
 To minimize mutual impedances, the CE was strategically placed at a substantial distance XC (m) 45 meters from EE. Next, a Potential Electrode (PE) was positioned at a distance XP (m) from the current injection point in EE. A common issue in measuring grounding impedance at the specific frequency of 25 kHz is the pronounced coupling effect between the leads connected to auxiliary electrodes for current and potential. This effect becomes particularly significant when these leads are laid in parallel within the ground. To address this challenge, it was adopted the configuration outlined in Figure 2. In this setup, the auxiliary electrodes for the current and the potential probes should be positioned in opposite directions along a line orthogonal to the horizontal electrode direction. This arrangement mitigates the coupling effect, providing a more accurate measurement of grounding resistance at 25 kHz [^1]. 
 
-We systematically moved the PE in 0.1XC increments in the opposite direction away from CE, capturing resistance reading at each step calculated as $( \frac{Vp_{RMS}}{Ic_{RMS}} )$. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of the turbine of interest grounding impedance at 25 kHz.
+We systematically moved the PE in 0.1XC increments in the opposite direction away from CE, capturing resistance reading at each step calculated as $( \frac{Vp^{Pk-Pk}}{Ic^{Pk-Pk}} )$. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of the turbine of interest grounding impedance at 25 kHz.
 
 For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP high-frequency measurements $Zmed_{FoP}^{HF}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. It's noteworthy that the assessment of grounding impedance at high frequencies is conventionally used for understanding the behavior of the grounding circuit under the influence of direct atmospheric discharge-related currents. 
 
@@ -64,7 +64,7 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 
 In Table 1, the following parameters are recorded for each turbine:
 
-- **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude, calculated as peak voltage-to-current ratio $( \frac{Vp_{RMS}}{Ic{RMS}} )$, representing the total opposition to the flow of alternating current.
+- **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude, calculated as peak voltage-to-current ratio $( \frac{Vp^{Pk-Pk}}{Ic^{Pk-Pk}} )$, representing the total opposition to the flow of alternating current.
 - **$θmed_{FoP}^{HF}$ (°):** The angle of defasagem (lag) between $Vp$ and $Ic$, indicating the time delay in the waveform.
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
