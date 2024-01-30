@@ -105,9 +105,9 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 | Turbine | $Rf$ ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
 |-------------|------------------------|--------------|-----------------|-----------------|-----------------|
-| 1          | 40.0      | 6.28                   | 8.45       | 37.8            | 40.0            |
-| 2          | 49.0      | 6.28                   | 7.46       | 40.5            | 48.3            |
-| 3          | 39.5      | 6.25                   | 8.37       | 37.5            | 39.5            |
+| 1          | 40.0      | 6.28                   | 7.58       | 37.8            | 40.0            |
+| 2          | 49.0      | 6.28                   | 7.41       | 40.5            | 48.3            |
+| 3          | 39.5      | 6.25                   | 7.50       | 37.5            | 39.5            |
 
 In Table 2, taken as benchmarked $Rf$ ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" in Table 3 is then calculated as $Error_{method}$ = $\frac{Zmed_{method} - Rf} {Rf} * 100$ (%). It is essential to note that the grounding resistance $Rf$ was obtained prior to the installation of horizontal electrodes.
 
@@ -115,16 +115,16 @@ In Table 2, taken as benchmarked $Rf$ ($\Omega$) represents the actual turbine g
 
 | Turbine  | $Error_{FoP}^{LF}$ (%) | $Error_{FoP}^{HF}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
 |------------------------------|----------------|------------------|------------------|------------------|
-| 1        | -84.3                   | -78.9         | -5.5            | -0.1            |
-| 2         | -87.2                   | -84.8         | -17.4           | -1.5            |
-| 3          | -84.2                | -78.8         | -5.1            | 0.1             |
+| 1        | -84.3                   | -81.1         | -5.5            | -0.1            |
+| 2         | -87.2                   | -84.9         | -17.4           | -1.5            |
+| 3          | -84.2                | -81.0         | -5.1            | 0.1             |
 
 
 ## Results discussions
 
 The analysis of the presented data from Table 2 and Table 3 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 2, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point (1,2 or 3) within the grounding system, the impedance value at low frequency $Zmed_{FoP}^{LF}$ remains constant and reflects the actual grounding resistance of the entire grounding system $R_{system}$ ($\Omega$).
 
-For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 80.8 % in Table 3.
+For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 82.3 % in Table 3.
 
 On the other hand, looking at Table 3 we can see that the clamp-on-ground meter method exhibited a moderate MAPE of 9.4 %. What contributed to the CGM method's performance was a combination of the compact dimensions of the grounding system and the effect of mutual impedances among the grounding elements.
 
