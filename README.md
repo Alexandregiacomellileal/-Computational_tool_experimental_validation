@@ -82,7 +82,7 @@ The instruments used to apply the HFM method were: (i) Tektronix A6302 50 MHz AC
 
 ### (iii) Clamp-on Ground Meter Method
 
-Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter attached to the interconnection cable linking each cylinder (representing the turbine grounding) to the horizontal electrode.
+Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter attached to the interconnection cable linking each cylinder (representing the turbine grounding) to the horizontal electrode - Figure 5.
 
 **Figure 5**
 
