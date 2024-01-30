@@ -58,8 +58,8 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 ### Table 1 - HF Measurement Data      
 | Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θmed_{FoP}^{HF}$ (°) | $Rmed_{FoP}^{HF}$ (Ω) | $Xmed_{FoP}^{HF}$ (Ω) |
 |---------|----------|-------|-------|-------|
-| 1       | 7.58     | 30.24 | 6.55  | 3.82  |
-| 2       | 7.41     | 30.24 | 6.40  | 3.73  |
+| 1       | 7.58     | 31.50 | 6.46  | 3.96  |
+| 2       | 7.41     | 30.96 | 6.35  | 3.81  |
 | 3       | 7.50     | 30.24 | 6.48  | 3.78  |
 
 In Table 1, the following parameters are recorded for each turbine:
@@ -69,6 +69,7 @@ In Table 1, the following parameters are recorded for each turbine:
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
+Figure 4 displays an image captured from the oscilloscope during the field measurement of turbine 3, providing a visual representation for a better understanding of the data presented in Table 1.
 
 **Figure 4**    
 <img width="600" alt="image" src="https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/assets/96079504/281154d3-53ea-4528-bafe-1c7607c47d24">
