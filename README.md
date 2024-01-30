@@ -58,9 +58,9 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 ### Table 1 - HF Measurement Data      
 | Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θmed_{FoP}^{HF}$ (°) | $Rmed_{FoP}^{HF}$ (Ω) | $Xmed_{FoP}^{HF}$ (Ω) |
 |---------|----------|-------|-------|-------|
-| 1       | 8.45     | 34.65 | 6.95  | 4.80  |
-| 2       | 7.46     | 34.65 | 6.14  | 4.24  |
-| 3       | 8.37     | 34.65 | 6.89  | 4.76  |
+| 1       | 7.58     | 30.24 | 6.55  | 3.82  |
+| 2       | 7.41     | 30.24 | 6.40  | 3.73  |
+| 3       | 7.50     | 30.24 | 6.48  | 3.78  |
 
 In Table 1, the following parameters are recorded for each turbine:
 
@@ -68,6 +68,7 @@ In Table 1, the following parameters are recorded for each turbine:
 - **$θmed_{FoP}^{HF}$ (°):** The delay angle between the voltage wave ($V_p$) and current wave ($I_c$), calculated as $(\frac{t_d \cdot 360}{T})$, represents the time delay in the waveform with a period of $T (s)$.
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
+
 
 **Figure 4**    
 <img width="600" alt="image" src="https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/assets/96079504/281154d3-53ea-4528-bafe-1c7607c47d24">
