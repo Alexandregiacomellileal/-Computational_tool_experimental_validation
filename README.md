@@ -69,7 +69,7 @@ In Table 1, the following parameters are recorded for each turbine:
 - **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
-Figure 4 displays an image captured from the oscilloscope during the field measurement of turbine 3, providing a visual representation for a better understanding of the data presented in Table 1.
+Figure 4 displays an image captured from the oscilloscope during the field measurement of turbine 3.
 
 **Figure 4**    
 <img width="600" alt="image" src="https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/assets/96079504/281154d3-53ea-4528-bafe-1c7607c47d24">
