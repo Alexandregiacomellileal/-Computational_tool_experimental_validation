@@ -70,6 +70,7 @@ In Table 1, the following parameters are recorded for each turbine:
 - **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
 
 **Figure 4**    
+<img width="600" alt="image" src="https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/assets/96079504/281154d3-53ea-4528-bafe-1c7607c47d24">
 
 
 The instruments used to apply the HFM method were: (i) Tektronix A6302 50 MHz AC Current Probe, (ii) Tektronix AM503 Current Probe Amplifier, (iii) Hantek DSO5102P 2 Channel Digital Storage Oscilloscope 100 Mhz, and
