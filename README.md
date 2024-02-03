@@ -142,5 +142,7 @@ Federal University of Technology – Parana (UTFPR) and Institute of Technology 
 
 ________________________________________________________________________________________________________________________
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAlexandregiacomellileal%2FWind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation&label=Visitors&labelColor=%23697689&countColor=%23ff8a65)
+<p align="center">
+  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAlexandregiacomellileal%2FWind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation&label=Visitors&labelColor=%23697689&countColor=%23ff8a65" alt="Visitors Badge">
+</p>
 
