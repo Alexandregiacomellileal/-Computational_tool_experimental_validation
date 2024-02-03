@@ -1,5 +1,7 @@
 # Experimental Validation of the Wind Turbine Grounding Resistance Estimator (WTGRE)
+
 <span style="color:red">Esta frase é vermelha.</span>
+
 ## Associated research paper
 Integrated approach for wind turbine grounding resistance estimation: Bridging clamp-on ground meter, computational simulations, and machine learning
 
