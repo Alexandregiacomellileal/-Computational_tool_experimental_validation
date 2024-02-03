@@ -130,6 +130,7 @@ On the other hand, looking at Table 3 we can see that the clamp-on-ground meter 
 
 The proposed method surpassed all others, achieving outstanding accuracy in predicting individual grounding resistances for wind turbine systems, as evidenced by an impressive MAPE of 0.6% in Table 3. The success of our proposed method highlights its efficacy, making it a promising approach for assessments of the wind turbines' groundings. Overall, this study underscores the importance of careful method selection in grounding measurements, particularly in the context of wind energy systems, where accurate assessments are crucial for ensuring optimal performance.
 
+____________________________________________________
 
-
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAlexandregiacomellileal%2FWind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation&label=Visitors&labelColor=%23697689&countColor=%23ff8a65)
 
