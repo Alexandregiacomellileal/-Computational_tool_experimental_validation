@@ -8,7 +8,9 @@ This repository offers comprehensive details on the experimental validation cond
 
 Validation experiments were conducted using a scaled-down multi-grounded system, as described below. The study involved measurements using four methods: (i) Fall-of-Potential at low frequency, (ii) Fall-of-Potential at high frequency (25 kHz), (iii) Clamp-on ground meter, and (iv) Proposed. The specific objective of this study was to compare the measurements results of these methods with the individual actual turbine grounding resistance ($Rf$, measured in Ω) obtained through Fall-of-Potential method at low frequency before the installation of horizontal electrodes.
 
-
+| Texto com Cor |
+| ------------- |
+| <span style="color:red">Esta frase é vermelha.</span> |
 
 ## Experimental Setup
 
