@@ -86,7 +86,7 @@ Measurements Zmed <sub>CGM</sub> were conducted using the UT-278A clamp-on meter
 
 <img width="600" alt="image" src="https://github.com/Alexandregiacomellileal/Computational_tool_experimental_validation/assets/96079504/cf96775b-1295-4e97-9a22-e15773305cf4">
 
-[https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/blob/main/Gravar_2024_02_04_08_16_36_914.mp4](https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/blob/main/Gravar_2024_02_04_08_16_36_914-ezgif.com-video-to-gif-converter.gif)
+https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/blob/main/Gravar_2024_02_04_08_16_36_914-ezgif.com-video-to-gif-converter.gif
 
 ### (iv) Proposed Method
 
