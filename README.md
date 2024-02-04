@@ -1,6 +1,6 @@
 # Experimental Validation of the Wind Turbine Grounding Resistance Estimator (WTGRE)
 
-[https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation](https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/blob/main/GIF-ezgif.com-video-to-gif-converter.gif)
+![https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation](https://github.com/Alexandregiacomellileal/Wind-Turbine-Grounding-Resistance-Estimator-Experimental-Validation/blob/main/GIF-ezgif.com-video-to-gif-converter.gif)
 
 ## Associated research paper
 Integrated approach for wind turbine grounding resistance estimation: Bridging clamp-on ground meter, computational simulations, and machine learning
