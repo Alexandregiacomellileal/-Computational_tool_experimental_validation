@@ -27,7 +27,7 @@ In Figure 2, we illustrate the application of the Fall-of-Potential (FoP) method
 
 Next, a Potential Electrode (PE) was positioned at a distance XP (m) from the current injection point in EE. The precise placement of the PE termed the compensation point, is crucial. It must be free from the influences of both the EE and CE. To ensure this, we systematically moved the PE in 0.1XC increments between EE and CE, capturing resistance reading at each step calculated as $( \frac{V_p}{I_c} )$. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of true EE grounding resistance, a principle known as the Flat-slope-rule [^4]. 
 
-For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP low-frequency measurements $Zmed_{FoP}^{LF}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. However, it is essential to highlight that such a value is representative of the true grounding resistance of the entire grounding system of the case study. The Minipa MTR-1522 instrument was chosen to perform the FoP Low-frequency Method. The meter operates at a test frequency of 820 Hz, and the test current has a magnitude of approximately 3.2 mA. The selection of this meter was deliberate, aiming to avoid interference from the prevailing spectrum at the measurement location. This careful choice ensures accurate and reliable measurements by mitigating potential disruptions caused by the surrounding frequency range. The results obtained in this section were verified by substituting the meter MTR-1522 with a setup of equipment, including an oscilloscope, a current probe, and a function generator.
+For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP low-frequency measurements $Zmed_{FoP}^{con.}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. However, it is essential to highlight that such a value is representative of the true grounding resistance of the entire grounding system of the case study. The Minipa MTR-1522 instrument was chosen to perform the FoP Low-frequency Method. The meter operates at a test frequency of 820 Hz, and the test current has a magnitude of approximately 3.2 mA. The selection of this meter was deliberate, aiming to avoid interference from the prevailing spectrum at the measurement location. This careful choice ensures accurate and reliable measurements by mitigating potential disruptions caused by the surrounding frequency range. The results obtained in this section were verified by substituting the meter MTR-1522 with a setup of equipment, including an oscilloscope, a current probe, and a function generator.
 
 [^4]: IEEE guide for measuring earth resistivity, ground impedance, and earth surface potentials of a grounding system, IEEE Std 81-2012 (Revision of IEEE Std 81-1983) (2012) 1–86.
 
@@ -51,12 +51,12 @@ To minimize mutual impedances, the CE was strategically placed at a substantial 
 
 We systematically moved the PE in 0.1XC increments in the opposite direction away from CE, capturing resistance reading at each step calculated as $( \frac{Vp^{peak}}{Ic^{peak}} )$. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of the turbine of interest grounding impedance at 25 kHz.
 
-For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP high-frequency measurements $Zmed_{FoP}^{HF}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. It's noteworthy that the assessment of grounding impedance at high frequencies is conventionally used for understanding the behavior of the grounding circuit under the influence of direct atmospheric discharge-related currents. 
+For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP high-frequency measurements $Zmed_{HF}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. It's noteworthy that the assessment of grounding impedance at high frequencies is conventionally used for understanding the behavior of the grounding circuit under the influence of direct atmospheric discharge-related currents. 
 
 It is important to note that some 25 kHz ground meters come equipped with a built-in circuit designed to nullify the inductive component of the measured impedance, employing a technique known as 'inductive compensation'. In such instances, the meter indicates the real part of the measured impedance. However, as indicated in Table 1, with inductive compensation, the readings $R_{FoP}^{HF}$ (Ω) provided by the 25 kHz meter deviate even further from the low-frequency impedance value of the turbine ground. In fact, they align much more closely with the true grounding resistance of the entire system in the test $R_{system}$ ($\Omega$). Thus, for this study, we will not consider inductive compensation. This decision is made to optimize the high-frequency method, aiming to estimate the grounding resistance of the turbine under the most favorable conditions.
 
 ### Table 1 - HF Measurement Data      
-| Turbine | $Zmed_{FoP}^{HF}$ ($\Omega$) | $θmed_{FoP}^{HF}$ (°) | $Rmed_{FoP}^{HF}$ (Ω) | $Xmed_{FoP}^{HF}$ (Ω) |
+| Turbine | $Zmed_{HF}$ ($\Omega$) | $θmed_{HF}$ (°) | $Rmed_{HF}$ (Ω) | $Xmed_{HF}$ (Ω) |
 |---------|----------|-------|-------|-------|
 | 1       | 7.58     | 31.50 | 6.46  | 3.96  |
 | 2       | 7.41     | 30.96 | 6.35  | 3.81  |
@@ -64,10 +64,10 @@ It is important to note that some 25 kHz ground meters come equipped with a buil
 
 In Table 1, the following parameters are recorded for each turbine:
 
-- **$Zmed_{FoP}^{HF}$ ($\Omega$):** The measured impedance magnitude, calculated as peak voltage-to-current ratio $( \frac{Vp^{peak}}{Ic^{peak}} )$, representing the total opposition to the flow of alternating current.
-- **$θmed_{FoP}^{HF}$ (°):** The delay angle between the voltage wave ($V_p$) and current wave ($I_c$), calculated as $(\frac{t_d \cdot 360}{T})$, represents the time delay in the waveform with a period of $T (s)$.
-- **$Rmed_{FoP}^{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{FoP}^{HF} \cdot \cos(\theta med_{FoP}^{HF})$.
-- **$Xmed_{FoP}^{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{FoP}^{HF} \cdot \sin(\theta med_{FoP}^{HF})$.
+- **$Zmed_{HF}$ ($\Omega$):** The measured impedance magnitude, calculated as peak voltage-to-current ratio $( \frac{Vp^{peak}}{Ic^{peak}} )$, representing the total opposition to the flow of alternating current.
+- **$θmed_{HF}$ (°):** The delay angle between the voltage wave ($V_p$) and current wave ($I_c$), calculated as $(\frac{t_d \cdot 360}{T})$, represents the time delay in the waveform with a period of $T (s)$.
+- **$Rmed_{HF}$ (Ω):** The real part of the measured impedance, representing resistance. Calculated as $Zmed_{HF} \cdot \cos(\theta med_{HF})$.
+- **$Xmed_{HF}$ (Ω):** The imaginary part of the measured impedance, representing reactance. Calculated as $Zmed_{HF} \cdot \sin(\theta med_{HF})$.
 
 Figure 4 displays an image captured from the oscilloscope during the field measurement of turbine 3. The channel of the blue waveform ($I_c$) is set to 10.0 mV per division, representing 20 mA per division.
 
@@ -102,7 +102,7 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 ### Table 2 - Measurement Data
 
-| Turbine | $Rf$ ($\Omega$) | $Zmed_{FoP}^{LF}$ ($\Omega$)| $Zmed_{FoP}^{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
+| Turbine | $Rf$ ($\Omega$) | $Zmed_{FoP}^{con.}$ ($\Omega$)| $Zmed_{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
 |-------------|------------------------|--------------|-----------------|-----------------|-----------------|
 | 1          | 40.0      | 6.28                   | 7.58       | 37.8            | 40.0            |
 | 2          | 49.0      | 6.28                   | 7.41       | 40.5            | 48.3            |
@@ -112,7 +112,7 @@ In Table 2, taken as benchmarked $Rf$ ($\Omega$) represents the actual turbine g
 
 ### Table 3 - Percentage error in estimated the turbine grounding resistance Rf
 
-| Turbine  | $Error_{FoP}^{LF}$ (%) | $Error_{FoP}^{HF}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
+| Turbine  | $Error_{FoP}^{con.}$ (%) | $Error_{HF}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
 |------------------------------|----------------|------------------|------------------|------------------|
 | 1        | -84.3                   | -81.1         | -5.5            | -0.1            |
 | 2         | -87.2                   | -84.9         | -17.4           | -1.5            |
@@ -121,7 +121,7 @@ In Table 2, taken as benchmarked $Rf$ ($\Omega$) represents the actual turbine g
 
 ## Results discussions
 
-The analysis of the presented data from Table 2 and Table 3 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 2, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point (1,2 or 3) within the grounding system, the impedance value at low frequency $Zmed_{FoP}^{LF}$ remains constant and reflects the actual grounding resistance of the entire grounding system $R_{system}$ ($\Omega$).
+The analysis of the presented data from Table 2 and Table 3 provides valuable insights into the performance of different grounding measurement methods of wind turbines. In an initial examination of Table 2, for the Fall-of-Potential (FoP) at low frequency in the case study, it becomes evident that irrespective of the test current injection point (1,2 or 3) within the grounding system, the impedance value at low frequency $Zmed_{FoP}^{con.}$ remains constant and reflects the actual grounding resistance of the entire grounding system $R_{system}$ ($\Omega$).
 
 For the case of the high-frequency method, due to the decoupling effect provided by the reactance of the horizontal electrodes along the measurement circuit, the impedance readings obtained for each of the current injection points presented divergent and experienced increases. However, due to the shortened length of the horizontal electrodes, these reactances were not significant enough for the method to achieve good performance in estimating the individual grounding resistances of the turbines presenting a MAPE of 82.3 % in Table 3.
 
