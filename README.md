@@ -27,7 +27,9 @@ In Figure 2, we illustrate the application of the Fall-of-Potential (FoP) method
 
 Next, a Potential Electrode (PE) was positioned at a distance XP (m) from the current injection point in EE. The precise placement of the PE termed the compensation point, is crucial. It must be free from the influences of both the EE and CE. To ensure this, we systematically moved the PE in 0.1XC increments between EE and CE, capturing resistance reading at each step calculated as $( \frac{V_p}{I_c} )$. The detection of three consecutive, evenly spaced, and constant resistance readings (differences lower than 3%) was indicative of true EE grounding resistance, a principle known as the Flat-slope-rule [^4]. 
 
-For comparison purposes with other approaches aiming to estimate just the individual grounding resistances of turbines in the case study's grounding system, the FoP low-frequency measurements $Zmed_{FoP}^{con.}$ ($\Omega$) were taken at three different current injection points in EE, identified as 1, 2, and 3. However, it is essential to highlight that such a value is representative of the true grounding resistance of the entire grounding system of the case study. The Minipa MTR-1522 instrument was chosen to perform the FoP Low-frequency Method. The meter operates at a test frequency of 820 Hz, and the test current has a magnitude of approximately 3.2 mA. The selection of this meter was deliberate, aiming to avoid interference from the prevailing spectrum at the measurement location. This careful choice ensures accurate and reliable measurements by mitigating potential disruptions caused by the surrounding frequency range. The results obtained in this section were verified by substituting the meter MTR-1522 with a setup of equipment, including an oscilloscope, a current probe, and a function generator.
+For comparison with other methods aimed at estimating the individual grounding resistances of turbines within the case study's grounding system, low-frequency Fall-of-Potential (\gls{fop}) measurements were sequentially taken at three different current injection points (turbine bonding bars 1, 2, and 3). Initially, measurements $Zmed_{FoP}^{con.}$ ($\Omega$) were conducted with the system fully connected, implying that all turbines electrodes were linked to the horizontal electrode, as depicted in Figure \ref{fig:val2}. Subsequently, measurements $Zmed_{FoP}^{disc.}$ ($\Omega$) were acquired by disconnecting the horizontal electrode from the turbine under test.
+
+The Minipa MTR-1522 instrument was chosen to perform the FoP Low-frequency Method. The meter operates at a test frequency of 820 Hz, and the test current has a magnitude of approximately 3.2 mA. The selection of this meter was deliberate, aiming to avoid interference from the prevailing spectrum at the measurement location. This careful choice ensures accurate and reliable measurements by mitigating potential disruptions caused by the surrounding frequency range. The results obtained in this section were verified by substituting the meter MTR-1522 with a setup of equipment, including an oscilloscope, a current probe, and a function generator.
 
 [^4]: IEEE guide for measuring earth resistivity, ground impedance, and earth surface potentials of a grounding system, IEEE Std 81-2012 (Revision of IEEE Std 81-1983) (2012) 1–86.
 
@@ -102,21 +104,21 @@ To assist readers who wish to replicate the experiment, we have attached two fil
 
 ### Table 2 - Measurement Data
 
-| Turbine | $Rf$ ($\Omega$) | $Zmed_{FoP}^{con.}$ ($\Omega$)| $Zmed_{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
-|-------------|------------------------|--------------|-----------------|-----------------|-----------------|
-| 1          | 40.0      | 6.28                   | 7.58       | 37.8            | 40.0            |
-| 2          | 49.0      | 6.28                   | 7.41       | 40.5            | 48.3            |
-| 3          | 39.5      | 6.25                   | 7.50       | 37.5            | 39.5            |
+| Turbine | $Rf$ ($\Omega$) | $Zmed_{FoP}^{con.}$ ($\Omega$)| | $Zmed_{FoP}^{disc.}$ ($\Omega$)| $Zmed_{HF}$ ($\Omega$) | $Zmed_{CGM}$ ($\Omega$)| $Zmed_{Proposed}$ ($\Omega$)|
+|-------------|------------------------|--------------|--------------|-----------------|-----------------|-----------------|
+| 1          | 40.0      | 6.28     | 34.0              | 7.58       | 37.8            | 40.0            |
+| 2          | 49.0      | 6.28     | 42.3              | 7.41       | 40.5            | 48.3            |
+| 3          | 39.5      | 6.25     | 30.0              | 7.50       | 37.5            | 39.5            |
 
 In Table 2, taken as benchmarked $Rf$ ($\Omega$) represents the actual turbine grounding resistance measured by the Low-Frequency Fall-of-Potential Method using Flat-slope-rule, and $Zmed_{method}$ represents the estimated turbine grounding impedance by other measurement method evaluated in this research. The "Evaluated Measurement Method Percentage Error" in Table 3 is then calculated as $Error_{method}$ = $\frac{Zmed_{method} - Rf} {Rf} * 100$ (%). It is essential to note that the grounding resistance $Rf$ was obtained prior to the installation of horizontal electrodes.
 
 ### Table 3 - Percentage error in estimated the turbine grounding resistance Rf
 
-| Turbine  | $Error_{FoP}^{con.}$ (%) | $Error_{HF}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
-|------------------------------|----------------|------------------|------------------|------------------|
-| 1        | -84.3                   | -81.1         | -5.5            | -0.1            |
-| 2         | -87.2                   | -84.9         | -17.4           | -1.5            |
-| 3          | -84.2                | -81.0         | -5.1            | 0.1             |
+| Turbine  | $Error_{FoP}^{con.}$ (%) | $Error_{FoP}^{disc.}$ (%) | $Error_{HFM}$ (%)| $Error_{CGM}$ (%)| $Error_{Proposed}$ (%)|
+|------------------------------|----------------|----------------|------------------|------------------|------------------|
+| 1        | -84.3        | -15.0           | -81.1         | -5.5            | -0.1            |
+| 2         | -87.2       | -13.7            | -84.9         | -17.4           | -1.5            |
+| 3          | -84.2      | -24.1         | -81.0         | -5.1            | 0.1             |
 
 
 ## Results discussions
